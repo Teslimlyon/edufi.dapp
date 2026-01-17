@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EduFi Learn-to-Earn</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎓 EduFi Learn-to-Earn</h1>
+
+    <div id="walletBox" class="wallet-box">
+      <p>🔗 Wallet: <span id="walletAddress">Not connected</span></p>
+      <button id="connect" class="primary-btn">Connect Wallet</button>
+    </div>
+
+    <div class="section">
+      <h3>1️⃣ Enroll</h3>
+      <input id="stake" type="number" placeholder="Stake (ADA)" />
+      <textarea id="lessonNotes" placeholder="Lesson Notes (comma-separated URLs)"></textarea>
+      <button id="enroll">Enroll</button>
+    </div>
+
+    <div class="section">
+      <h3>2️⃣ Complete Lesson</h3>
+      <button id="complete">Complete Next Lesson</button>
+    </div>
+
+    <div class="section">
+      <h3>3️⃣ Claim Rewards</h3>
+      <button id="claim" class="success-btn">Claim All</button>
+    </div>
+
+    <div class="progress-section">
+      <h3>📊 Progress</h3>
+      <div class="progress-bar">
+        <div id="progress" class="progress-fill"></div>
+      </div>
+      <p id="progressText">0 / 10 Lessons Completed</p>
+    </div>
+
+    <div class="lessons">
+      <h3>📚 Lesson Notes</h3>
+      <ul id="lessonList"></ul>
+    </div>
+
+    <div class="log-section">
+      <h3>🧾 Status</h3>
+      <div id="log">Ready...</div>
+    </div>
+  </div>
+
+  <script type="module" src="./edufi.js"></script>
+</body>
+</html>
