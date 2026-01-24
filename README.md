@@ -7,7 +7,7 @@ All progress and rewards are stored in a **Plutus V2 smart contract**—no inter
 ---
 
 ## 🌐 Live Demo
-https://edufidapps-git-main-teslims-projects-b998b2b1.vercel.app
+https://edufidapps.vercel.app/
 
 ---
 
